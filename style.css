@@ -75,6 +75,10 @@ nav {
   font-size: 0.5em;
 }
 
+#sidebar {
+  display: none;
+}
+
 #search {
   background-color: white; 
   border-top-left-radius: 20px;
