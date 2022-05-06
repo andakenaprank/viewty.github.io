@@ -316,7 +316,7 @@ div.icons {
     flex-direction: row-reverse;
     gap: 2em;
     grid-row: 1/2;
-    margin-right: 30px;
+    margin-left: 10px;
     
   }
 
