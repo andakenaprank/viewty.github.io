@@ -408,7 +408,7 @@ div.icons {
 
   main {
     display: grid;
-    grid-template-rows: 1.5fr 1fr;
+    grid-template-rows: 1.5fr 0.7fr;
     height: 100vh;
     z-index: -10;
   }
@@ -484,9 +484,14 @@ div.icons {
     z-index: 100000;
   }
 
+    .header-text {
+      margin-left: 10px;
+    }
+
     .left h1 {
       font-family: poppins;
       color: white;
+      
     }
 
     .left p {
@@ -495,17 +500,19 @@ div.icons {
       font-size: 0.9em;
       letter-spacing: 5px;
     }
+    
 
     .img-cards {
       width: 30%;
-      height: 90%;
+      height: 80%;
       margin-top: 20px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
       background-color: rgb(17, 16, 17);
       gap: 5px;
-      margin-bottom:100px;
+      margin-bottom: 100px;
+      margin-right: 10px;
     }
     
     .card {
